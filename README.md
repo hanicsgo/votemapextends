@@ -1,2 +1,1 @@
-# votemapextends
-Add more time for map
+# Vote Extends Time Map for CS:GO Community Servers
