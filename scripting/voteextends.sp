@@ -24,7 +24,7 @@ public void OnPluginStart()
 {
 	RegConsoleCmd("sm_ve", Command_VoteExtend, "Vote to extend the map");
 	RegConsoleCmd("sm_extend", Command_VoteExtend, "Vote to extend the map");
-	g_hMaxVoteExtends = CreateConVar("add_max_vote_extends", "3", "The max number of VIP vote extends", FCVAR_NOTIFY, true, 0.0);
+	g_hMaxVoteExtends = CreateConVar("add_max_vote_extends", "1", "The max numbers vote extends", FCVAR_NOTIFY, true, 0.0);
 	g_hVoteExtendTime = CreateConVar("add_vote_extend_time", "10.0", "The time in minutes that is added to the remaining map time if a vote extend is successful.", FCVAR_NOTIFY, true, 0.0);
 }
 
